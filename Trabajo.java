@@ -50,6 +50,17 @@ public class Trabajo {
                     break;
                 } 
 
+                   } while ( opcion != 4);
+                
+                precioFinal= totalPremium + (totalPremium * IMPUESTO_IVA );
+                precioTotal=  precioFinal - (precioFinal * DESCUENTO_PRODUCTO);
+               
+
+               System.out.println("---FACTURA---");
+               System.out.println("El precio final del producto basico es " + TOTAL_BASICO);
+               System.out.println("El precio final del  producto medio es: " + TOTAL_MEDIO );
+               System.out.println("El precio final del producto premium con el iva y el descuento es: " +  precioTotal);
+
       
  
         
